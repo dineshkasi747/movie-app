@@ -13,7 +13,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173', // React frontend (Vite default port)
+  origin: 'https://movie-app-delta-two-84.vercel.app', // React frontend (Vite default port)
   credentials: true
 }));
 app.use(express.json());
